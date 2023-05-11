@@ -47,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editPrimeiroNome" />
 
     <EditText
-        android:id="@+id/edit"
+        android:id="@+id/editNomeCurso"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:layout_margin="16dp"
@@ -68,7 +68,7 @@
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editSobrenome" />
+        app:layout_constraintTop_toBottomOf="@+id/editNomeCurso" />
 
     <Button
         android:id="@+id/btnLimpar"
